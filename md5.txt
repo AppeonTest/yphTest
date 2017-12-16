@@ -1,0 +1,20 @@
+//调用样例:
+u_derek_md5 lu_md5
+lu_md5=create u_derek_md5
+string ls_text="123"
+string ls_result,ls_ret
+string ls_filepath="C:\1.txt"
+
+//对字符串进行md5
+lu_md5.uf_md5string(ls_text,ref ls_result)
+messagebox('',ls_result)
+
+//对文件进行md5,大附件的处理速度也比第三方组件快
+ls_ret=lu_md5.uf_md5file(ls_filepath,ref ls_result)
+if ls_ret<>'' then //返回非空为失败
+     messagebox('',ls_ret)
+else
+      messagebox('',ls_result)
+end if
+
+destroy lu_md5

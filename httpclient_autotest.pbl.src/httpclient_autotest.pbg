@@ -1,0 +1,17 @@
+Save Format v3.0(19990112)
+@begin Libraries
+ "httpclient_autotest.pbl" "";
+@end;
+@begin Objects 
+ "httpclient_autotest.sra" "httpclient_autotest.pbl";
+ "f_httpclient_argument.srf" "httpclient_autotest.pbl";
+ "p_httpclient_autotest_exe.srj" "httpclient_autotest.pbl";
+ "str_httpclient.srs" "httpclient_autotest.pbl";
+ "eon_appeon_resize.sru" "httpclient_autotest.pbl";
+ "uo_httpclient.sru" "httpclient_autotest.pbl";
+ "w_httpclient.srw" "httpclient_autotest.pbl";
+ "w_httpclient_bak.srw" "httpclient_autotest.pbl";
+ "w_tmp.srw" "httpclient_autotest.pbl";
+ "w_tmp2.srw" "httpclient_autotest.pbl";
+ "w_tmp3.srw" "httpclient_autotest.pbl";
+@end;
