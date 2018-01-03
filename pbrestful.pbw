@@ -5,5 +5,5 @@ Save Format v3.0(19990112)
  0 "pbrestful.pbt";
  1 "httpclient_autotest.pbt";
 @end;
-DefaultTarget "httpclient_autotest.pbt";
-DefaultRemoteTarget "httpclient_autotest.pbt";
+DefaultTarget "pbrestful.pbt";
+DefaultRemoteTarget "pbrestful.pbt";
