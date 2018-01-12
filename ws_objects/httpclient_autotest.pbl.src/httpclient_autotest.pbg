@@ -1,0 +1,7 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "httpclient_autotest.pbl" "";
+@end;
+@begin Objects 
+ "httpclient_autotest.sra" "httpclient_autotest.pbl";
+@end;
